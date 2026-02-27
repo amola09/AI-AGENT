@@ -1,0 +1,15 @@
+{
+  "name": "qa_automation_project",
+  "version": "1.0.0",
+  "description": "qa-automation-project\r │\r ├── tests/\r │   ├── ui/\r │   │   └── login.spec.js\r │   ├── api/\r │   │   └── users.spec.js\r │\r ├── pages/\r │   └── LoginPage.js\r │\r ├── utils/\r │   └── testData.js\r │\r ├── reports/\r ├── playwright.config.js\r └── README.md",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.11.0",
+    "mochawesome": "^7.1.4"
+  }
+}

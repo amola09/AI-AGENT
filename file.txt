@@ -1,0 +1,30 @@
+index.js (Main Controller)
+qa_job_agent/index.js ---> This file runs the agent and combines results.
+
+aiProcessor.js (AI Skill Detector)
+qa_job_agent/aiProcessor.js ---> Detects Playwright, Cypress & other skills.
+
+keywords.js (Search Keywords)
+qa_job_agent/keywords.js ---> Keeps search terms in one place.
+
+scrapers Folder
+qa_job_agent/scrapers/ ---> Put all website scrapers here.
+indeed.js
+instashyre.js
+linkedin.js
+naukri.js
+
+
+output folder (Results Storage) 
+qa_job_agent/output/ --->empty for now
+
+utils/saveResults.js (Optional but powerful)
+
+qa_job_agent/utils/saveResults.js ---> save results automatically
+
+
+✅ Easy to add new websites
+✅ Easy to add new skills
+✅ Recruiters love clean architecture
+✅ Scales into real AI job engine
+✅ Perfect for GitHub portfolio

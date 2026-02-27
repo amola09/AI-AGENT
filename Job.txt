@@ -1,0 +1,79 @@
+Job Agent System
+│
+├── Scraper Engine (Playwright)
+│   ├── LinkedIn scraper
+│   ├── Indeed scraper
+│   ├── Naukri scraper
+│   └── Instahyre scraper
+│
+├── Test Engine (Cypress)
+│   ├── Search form tests
+│   ├── filter validation
+│   └── result verification
+│
+├── AI Processor
+│   ├── remove duplicates
+│   ├── filter fresher roles
+│   └── summarize jobs
+│
+├── Database / CSV storage
+│
+└── Alert System
+    ├── email alerts
+    ├── Telegram alerts
+    └── daily reports
+
+
+🧩 Putting Everything Together
+STEP-BY-STEP FLOW
+STEP 1️⃣
+
+Playwright collects jobs from websites.
+
+STEP 2️⃣
+
+Cypress checks search works correctly.
+
+STEP 3️⃣
+
+AI filters useful jobs.
+
+STEP 4️⃣
+
+You receive best results daily.
+
+
+🎯 SUPER SIMPLE FLOW
+Playwright → finds jobs
+Cypress → checks system works
+AI → filters best jobs
+You → apply & get hired
+
+
+
+“I built a job automation agent using Playwright. 
+I created modular scrapers for multiple job portals 
+and imported them into a central controller file.
+Using async functions and the spread operator, 
+I combined results into a unified dataset for processing and filtering.”
+
+
+
+🏗 BIG PICTURE ARCHITECTURE
+User runs agent
+      ↓
+Scraper Engine (Playwright)
+      ↓
+Collect job listings
+      ↓
+AI Processor filters skills
+      ↓
+Results saved & shown
+
+
+Save Results to Excel (.xlsx)
+------------------------------
+
+Install Excel Package :
+
+npm install exceljs  ---> utils/saveResults.js
